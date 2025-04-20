@@ -1,0 +1,30 @@
+{
+  "name": "tax-calculator",
+  "version": "1.0.0",
+  "description": "確定申告の情報から所得税などを計算する",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walk8243/tax-calculator.git"
+  },
+  "keywords": [],
+  "author": "walk8243 <walk8243@gmail.com> (https://walk8243.xyz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walk8243/tax-calculator/issues"
+  },
+  "homepage": "https://github.com/walk8243/tax-calculator#readme",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.1",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
